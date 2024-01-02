@@ -6,7 +6,7 @@
 1. update config.yaml
 2. update schema.yaml
 3. update params.yaml
-4. update the entity 
+4. update the entity
 5. update the configuration manager in src config
 6. update the components
 7. update the pipeline
@@ -17,7 +17,7 @@
 ## ENVIRONMENT SETUP
 Creating conda environment
 ```
-conda create -n wine_quality python=3.8 -y 
+conda create -n wine_quality python=3.8 -y
 ```
 
 Activate conda environment
