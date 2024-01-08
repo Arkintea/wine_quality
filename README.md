@@ -131,8 +131,8 @@ setup.py is required whenever you want to install -e .
 
 
 3. Create ECR repo to store/save docker image
-    - Save the URI: 058264250048.dkr.ecr.eu-west-2.amazonaws.com/wine_quality_project
-4. Create EC2 machine (Ubuntu) 
+    - Save the URI: 058264250048.dkr.ecr.eu-north-1.amazonaws.com/wine_quality_project
+4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
 
 	```
@@ -152,8 +152,8 @@ setup.py is required whenever you want to install -e .
     ```
     - AWS_ACCESS_KEY_ID=
     - AWS_SECRET_ACCESS_KEY=
-    - AWS_REGION = us-east-1
-    - AWS_ECR_LOGIN_URI = demo>>  058264250048.dkr.ecr.eu-west-2.amazonaws.com
+    - AWS_REGION = eu-north-1
+    - AWS_ECR_LOGIN_URI = demo>>  058264250048.dkr.ecr.eu-north-1.amazonaws.com
     - ECR_REPOSITORY_NAME = simple-app
     ```
 
